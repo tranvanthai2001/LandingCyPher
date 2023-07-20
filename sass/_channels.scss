@@ -1,0 +1,133 @@
+.channerls {
+  padding: 100px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  .group_title {
+    width: 51%;
+    .title_secon {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .channer_title {
+      font-size: 60px;
+      font-weight: 800;
+      margin: 40px 0;
+    }
+  }
+  .group_desc {
+    display: flex;
+    justify-content: space-between;
+    .info_favicon {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .favicon_info {
+        .favicon_title {
+          font-size: 24px;
+          font-weight: 700;
+        }
+        .favicon_desc {
+          font-size: 17px;
+          font-weight: 500;
+          color: #7a7b98;
+          margin: 10px 0;
+        }
+        .favicon_directional {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+          span {
+            color: #4e1eb6;
+            font-size: 13px;
+            font-weight: 500;
+            position: relative;
+          }
+        }
+      }
+    }
+    .info_support {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .support_info {
+        .support_title {
+          font-size: 24px;
+          font-weight: 700;
+        }
+        .support_desc {
+          font-size: 17px;
+          font-weight: 500;
+          color: #7a7b98;
+          margin: 10px 0;
+        }
+        .support_directional {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          span {
+            color: #4e1eb6;
+            font-size: 13px;
+            font-weight: 500;
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .channerls {
+    padding: 40px 20px;
+    .group_title {
+      width: 80%;
+      .title_secon {
+        font-size: 17px;
+      }
+      .channer_title {
+        font-size: 25px;
+        margin: 10px 0 0 0;
+      }
+    }
+    .group_desc {
+      flex-direction: column;
+      gap: 30px;
+      .info_favicon {
+        margin-top: 30px;
+        .favicon_title {
+          font-size: 14px;
+        }
+        .favicon_desc {
+          font-size: 12px !important;
+        }
+      }
+      .info_support {
+        .support_title {
+          font-size: 30px;
+        }
+        .support_desc {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .channerls {
+    margin: 20px;
+    padding: 30px 0;
+    .group_title {
+        width: 100%;
+    }
+    .group_desc {
+        flex-direction: column;
+        gap: 50px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .channerls {
+        margin: 0 20px;
+    }
+}
